@@ -6,19 +6,19 @@
     - save()
     - insert(), insertOne(), insertMany()
 
-[mongo-grammer-C](mongo-gram%208b6dd/mongo-gram%2044d75.md)
+[mongo-grammer-C](https://github.com/ymiru0324/Dev-Note/blob/main/MongoDB/mongo-grammer-C.md)
 
 - R(Read, Select)
     - find()
 
-[mongo-grammer-R](mongo-gram%208b6dd/mongo-gram%20bb502.md)
+[mongo-grammer-R](https://github.com/ymiru0324/Dev-Note/blob/main/MongoDB/mongo-grammer-R.md)
 
 - U(Update)
     - updateOne(), updateMany()
 
-[mongo-grammer-U](mongo-gram%208b6dd/mongo-gram%205772e.md)
+[mongo-grammer-U](https://github.com/ymiru0324/Dev-Note/blob/main/MongoDB/mongo-grammer-U.md)
 
 - D(Delete)
     - remove(), deleteOne(), deleteMany()
 
-[mongo-grammer-D](mongo-gram%208b6dd/mongo-gram%204180e.md)
+[mongo-grammer-D](https://github.com/ymiru0324/Dev-Note/blob/main/MongoDB/mongo-grammer-D.md)
