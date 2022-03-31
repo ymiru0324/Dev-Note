@@ -15,7 +15,6 @@ NoSQL 사용하는 비관계형 데이터베이스
     ⇒ 컬렉션에 저장
     
 
----
 
 ## RDBMS와 NoSQL의 차이점
 
@@ -52,7 +51,6 @@ NoSQL
 | primary key | _id |
 | join(table join) | embedded document |
 
----
 
 ## Document
 
