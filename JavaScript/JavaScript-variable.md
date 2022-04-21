@@ -1,7 +1,6 @@
-# JavaScript-variable
+# 웹개발실무
 
 | var | Function-scoped | 재선언 O | 재할당 O |
-| --- | --- | --- | --- |
 | let | {Block-scoped} | 재선언 X | 재할당 O |
 | const | {Block-scoped} | 재선언 X | 재할당 X |
 
@@ -21,7 +20,7 @@ const
 - 변수를 선언하면 값을 바꿀 수 없다
 
 <aside>
-var
+###var
 
 ```jsx
 var a1 = 100;
@@ -56,7 +55,7 @@ console.log(y); // 3
 </aside>
 
 <aside>
-let
+###let
 
 ```jsx
 let a1 = 100;
@@ -100,21 +99,21 @@ console.log(y); // 3
 </aside>
 
 <aside>
-const
+### const
 
 ```jsx
-let a1 = 100;
-let a2 = 200;
+const a1 = 100;
+const a2 = 200;
 console.log("a1: %d, a2: %d", a1, a2) // a1: 100, a2: 200
 ```
 
 ```jsx
-let a2 = 300;
+const a2 = 300;
 console.log("a2: %d", a2) // error
 ```
 
 ```jsx
-let b = 100;
+const b = 100;
 ```
 
 ```jsx
