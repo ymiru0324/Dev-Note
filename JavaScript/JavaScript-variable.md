@@ -1,4 +1,4 @@
-# 웹개발실무
+# JavaScript-variable
 
 | var | Function-scoped | 재선언 O | 재할당 O |
 | --- | --- | --- | --- |
