@@ -1,10 +1,10 @@
 # github.io
 
-[GitHub Pages](https://pages.github.com/)
+[github.io](https://pages.github.com/)
 
 Github에서 지원하는 정적 호스팅 페이지로, 실제 서버를 운영하는듯이 접근 가능 !
 
-![제목 없음.png](github%20io%2035e531ee2644406ba0f66ebdd23f0b90/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C.png)
+![제목_없음](https://user-images.githubusercontent.com/81818730/167450985-0ed407bb-c75c-4eb8-b157-abc4f0948456.png)
 
 ---
 
@@ -12,7 +12,7 @@ Github에서 지원하는 정적 호스팅 페이지로, 실제 서버를 운영
 
 정적 사이트 생성기를 통해 여러 레퍼런스를 사용할 수 있다.
 
-[Static Site Generators - Top Open Source SSGs | Jamstack](https://jamstack.org/generators/)
+[Static Site Generators - Jamstack](https://jamstack.org/generators/)
 
 그 중에서도 가장 많이 사용하는 정적 사이트 생성기
 
@@ -46,7 +46,8 @@ Hugo
 
 1. repo 생성
     
-    ![다운로드.png](github%20io%2035e531ee2644406ba0f66ebdd23f0b90/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.png)
+    ![다운로드](https://user-images.githubusercontent.com/81818730/167451015-3acbd82b-f088-4a32-af79-dea5c046ceff.png)
+
     
 2. repo 이름 설정
     
@@ -57,6 +58,7 @@ Hugo
     
 3. 첫 화면 페이지는 index.html로 설정후 최상위 디렉토리 파일로 빼준 후 커밋
     
-    ![6.png](github%20io%2035e531ee2644406ba0f66ebdd23f0b90/6.png)
+    ![6](https://user-images.githubusercontent.com/81818730/167451028-3225009c-cba9-4165-b117-9672862281ae.png)
+
     
 4. username.github.io 도메인으로 이동하여 테스트
