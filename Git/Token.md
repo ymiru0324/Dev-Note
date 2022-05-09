@@ -4,14 +4,16 @@
 
 Github 홈페이지로 이동 → 우측 상단의 프로필 이미지를 클릭 → Settings → 왼쪽에 메뉴에서 Developer settings → Personal access tokens → Generate new token
 
-![14.PNG](Token%20bab7aae0c86442c993fba32cf9498471/14.png)
+![14](https://user-images.githubusercontent.com/81818730/167450869-51a65b9a-b1c9-4635-a5aa-0f04e0141f83.png)
+
 
 - Note : Token의 이름
 - Expriation : Token의 기간
 
 하위 설정을 설정 한 후 Generate Token !
 
-![15.PNG](Token%20bab7aae0c86442c993fba32cf9498471/15.png)
+![15](https://user-images.githubusercontent.com/81818730/167450883-c2541cd9-92d3-4256-a308-707dc3ef07c6.png)
+
 
 ※ Token은 최초로 발급 받을때 이후로는 두번 다시 확인할 수 없으므로 꼭! 꼭! 저장해주자
 
