@@ -38,7 +38,8 @@ ls -al
 cd [경로명]
 ```
 
-![1.PNG](Git%20Bash%20ecf029893b6d4ac3a44f4729c761303c/1.png)
+![1](https://user-images.githubusercontent.com/81818730/167450685-1507bfe6-0b7d-4b3c-9cb7-9dad72104b89.png)
+
 
 - 본인이 원하는 경로 들어가서 파일 주소 복사하시고 드라이브 이름 앞에 : 지우고 \만 /로 고치시면 됩니다 / Ex) D:\workspace\git-test → cd D/workspace/git-test
 
@@ -74,7 +75,8 @@ git config --global user.email "Github E-Mail"
 git status
 ```
 
-![2.PNG](Git%20Bash%20ecf029893b6d4ac3a44f4729c761303c/2.png)
+![2](https://user-images.githubusercontent.com/81818730/167450717-7cddcc8e-a159-4953-8e96-ed0d4bc814b5.png)
+
 
 빨간색 부분은 버전 관리가 되고 있지 않음
 
@@ -92,7 +94,8 @@ git add .
 git status
 ```
 
-![3.PNG](Git%20Bash%20ecf029893b6d4ac3a44f4729c761303c/3.png)
+![3](https://user-images.githubusercontent.com/81818730/167450731-049e6422-5f85-46b2-8507-9386cdd71b97.png)
+
 
 git add . 이후로 달라진 모습
 
@@ -103,7 +106,8 @@ git add . 이후로 달라진 모습
 git commit -m “msg”
 ```
 
-![4.PNG](Git%20Bash%20ecf029893b6d4ac3a44f4729c761303c/4.png)
+![4](https://user-images.githubusercontent.com/81818730/167450746-5131aa97-2042-47e6-ba37-b4279425c247.png)
+
 
 version 생성
 
@@ -114,7 +118,7 @@ version 생성
 git log
 ```
 
-![5.PNG](Git%20Bash%20ecf029893b6d4ac3a44f4729c761303c/5.png)
+![5](https://user-images.githubusercontent.com/81818730/167450780-33d255cb-6d91-4de6-a611-017ba361fd0b.png)
 
 ---
 
@@ -127,7 +131,8 @@ git commit -m "msg"
 git log
 ```
 
-![6.png](Git%20Bash%20ecf029893b6d4ac3a44f4729c761303c/6.png)
+![6](https://user-images.githubusercontent.com/81818730/167450796-f088c751-68fb-4174-addf-d8e5be8501a3.png)
+
 
 ---
 
