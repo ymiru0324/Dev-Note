@@ -1,14 +1,9 @@
 # Git
 
-[Git Bash](Git%207f25f1bae43e4e60aea7781179b11c62/Git%20Bash%20ecf029893b6d4ac3a44f4729c761303c.md)
-
-[Token](Git%207f25f1bae43e4e60aea7781179b11c62/Token%20bab7aae0c86442c993fba32cf9498471.md)
-
-[SourceTree](Git%207f25f1bae43e4e60aea7781179b11c62/SourceTree%204c3339dcc8664be5ab65bc57dc47feb8.md)
-
-[EGit](Git%207f25f1bae43e4e60aea7781179b11c62/EGit%20dd588b31ad61414bbfa0b29bada784f2.md)
-
-[github.io](Git%207f25f1bae43e4e60aea7781179b11c62/github%20io%2035e531ee2644406ba0f66ebdd23f0b90.md)
+### [Git Bash](https://github.com/ymiru0324/Dev-Note/blob/main/Git/Git%20Bash.md)
+### [Token](https://github.com/ymiru0324/Dev-Note/blob/main/Git/Token.md)
+### [EGit](https://github.com/ymiru0324/Dev-Note/blob/main/Git/EGit.md)
+### [github.io](https://github.com/ymiru0324/Dev-Note/blob/main/Git/github.io.md)
 
 ---
 
@@ -26,7 +21,7 @@
 
 ## Git 다운로드
 
-[Downloads](https://git-scm.com/downloads)
+https://git-scm.com/downloads
 
 기본적으로 Git을 다운로드 하면 Git CLI 프로그램인 Git Bash를 사용할 수 있다. Git의 기능을 풍부하게 사용하고 싶으면 Git CLI프로그램인 Git Bash를 사용하는것이 좋다. 하지만, GUI를 지원하지 않고 초보자는 대가리가 깨질 수 있기 때문에 개인적으로 GUI를 선호하는 편
 
