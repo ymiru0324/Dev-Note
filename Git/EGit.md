@@ -22,7 +22,8 @@ VCS Version Control System
  		- git
 ```
 
-![1.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/1.png)
+![1](https://user-images.githubusercontent.com/81818730/167451247-0ce8cd9f-5018-4a1e-81cd-28c40f8814a1.PNG)
+
 
 ## Git 시작
 
@@ -47,10 +48,9 @@ gitignore를 대신 생성해주는 사이트
 [gitignore.io](https://www.toptal.com/developers/gitignore)
 
 ## Git Commit
+![2](https://user-images.githubusercontent.com/81818730/167451293-25ea8ab8-85c8-4fe0-99d3-775206151187.PNG)
+![3](https://user-images.githubusercontent.com/81818730/167451288-0eacdce8-133b-49eb-9566-772ce8f0eb4a.PNG)
 
-![2.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/2.png)
-
-![3.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/3.png)
 
 변경 사항 저장후 Commit시 History에 출력됨
 
@@ -59,18 +59,21 @@ gitignore를 대신 생성해주는 사이트
 > 프로젝트명 옆에 Branch 이름이 뜨니 잘 살펴보도록 하자 !
 > 
 
-![4.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/4.png)
+![4](https://user-images.githubusercontent.com/81818730/167451336-a4ffcc38-9fc4-4f42-b6e3-23a010b7a7bd.PNG)
+
 
 > 프로젝트 우클릭 - Team - Switch To - New Branch - Check out new branch (브렌치 변경)
 > 
 
 animal Branch 생성 후 변경 사항 저장 후 Commit
 
-![5.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/5.png)
+![5](https://user-images.githubusercontent.com/81818730/167451345-49a0efc6-2cbb-4224-8c9a-bb4a1399a99c.PNG)
+
 
 변경 사항이 적용 됨 !
 
-![6.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/6.png)
+![6](https://user-images.githubusercontent.com/81818730/167451357-9de64673-f84b-41c1-8ef3-23dd2fcbc3be.PNG)
+
 
 > master Branch로 변경시 변경 사항 적용 안되어 있다. (별개로 나누어서 작업 가능)
 > 
@@ -93,7 +96,8 @@ Ex) Animal Branch의 변경 사항을 Master에 적용하고 싶다면 Master로
 
 Merge하고자 할 Branch가 현재 Branch를 온전히 포함하였기 때문
 
-![7.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/7.png)
+![7](https://user-images.githubusercontent.com/81818730/167451373-ce6867d2-e219-405d-95a4-92b927931869.PNG)
+
 
 ### non-fast-forward-merge
 
@@ -106,11 +110,10 @@ Merge하고자 할 Branch가 현재 Branch를 온전히 포함하였기 때문
 
 한마디로 변경사항이 일어난 Branch에 변경 사항이 일어난 Branch를 merge 하였을때 !
 
-![8.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/8.png)
+![8](https://user-images.githubusercontent.com/81818730/167451390-6035af33-1e31-461e-ae3d-67a9e13a50f5.PNG)
+![9](https://user-images.githubusercontent.com/81818730/167451398-96a1b502-5abf-4427-b45d-e12d4c027384.PNG)
+![10](https://user-images.githubusercontent.com/81818730/167451404-d82a4835-14fd-480c-aa51-573ee810b0aa.PNG)
 
-![9.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/9.png)
-
-![10.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/10.png)
 
 복잡하지만 하다보면 이해 되고, 자주 일어나는 상황이다 !
 
@@ -118,15 +121,18 @@ Merge하고자 할 Branch가 현재 Branch를 온전히 포함하였기 때문
 
 보통 Line은 중요하지 않고, 내용에 따른 충돌 사항이 일어난다
 
-![11.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/11.png)
+![11](https://user-images.githubusercontent.com/81818730/167451419-5713f17b-bc72-4a53-ba4f-100fa2d99277.PNG)
+
 
 버전이 합쳐지지 않고, 전부 채결한 뒤 Merge 하면 해결된다 
 
-![12.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/12.png)
+![12](https://user-images.githubusercontent.com/81818730/167451428-aaf11bdb-7bf8-45ef-923e-979e07f5601e.PNG)
+
 
 채결하고 나면 이러한 Commit 메세지가 작성된다
 
-![13.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/13.png)
+![13](https://user-images.githubusercontent.com/81818730/167451445-da5fe328-30f1-48fd-a836-2caedb1f22b5.PNG)
+
 
 <aside>
 ⚙ Master는 완성된 코드만을 모으는 곳이라고 생각하면 편하고, 새로운 작업이 있을때 마다 Branch를 따서 작업이 완성되면 Master에 Merge 해주는게 이상적인 방법이다.
@@ -137,9 +143,10 @@ Merge하고자 할 Branch가 현재 Branch를 온전히 포함하였기 때문
 
 한마디로 local_repo 에서 remote_repo로 Push 해준다.
 
-Github에 repo 생성 → 원격 저장소 주소 복사 → Eclipse → Git Repositories → Remotes - Configure push → Change → URL 등록 → Authentication에 User와 Password에 [Token](Token%20bab7aae0c86442c993fba32cf9498471.md) 값을 입력해준다 ! → Advanced (Push 설정에 대한 설정 / Branch별로 연결을 도와주는 설정) → All Branches → Finish ! → push → Github repo 이동하여 잘 들어갔는지 확인
+Github에 repo 생성 → 원격 저장소 주소 복사 → Eclipse → Git Repositories → Remotes - Configure push → Change → URL 등록 → Authentication에 User와 Password에 [Token](https://github.com/ymiru0324/Dev-Note/blob/main/Git/Token.md) 값을 입력해준다 ! → Advanced (Push 설정에 대한 설정 / Branch별로 연결을 도와주는 설정) → All Branches → Finish ! → push → Github repo 이동하여 잘 들어갔는지 확인
 
-![16.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/16.png)
+![16](https://user-images.githubusercontent.com/81818730/167451506-cf5a525d-2d42-4630-b887-831f77f706ac.PNG)
+
 
 Remotes에 연결이 되었다
 
@@ -151,7 +158,8 @@ Remotes에 연결이 되었다
 
 변경사항 저장후 commit → 프로젝트 우클릭 → Team → Push to origin
 
-![17.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/17.png)
+![17](https://user-images.githubusercontent.com/81818730/167451518-17282d19-6c71-4956-a879-c9f5a323fec9.PNG)
+
 
 이런 메세지가 뜬다면 성공
 
@@ -167,7 +175,8 @@ remotes/branch는 원격저장소에 대한 읽기 전용 Branch이다.
 
 저장된 변경사항을 Configure Fetch → Advanced (Fetch설정에 대한 설정 / Branch별로 연결을 도와주는 설정) → All Branches → Finish ! → fetch
 
-![18.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/18.png)
+![18](https://user-images.githubusercontent.com/81818730/167451539-a9681465-e017-4f7f-bdfc-f07d94814ce7.PNG)
+
 
 → Remote Tracking에 Branch가 뜨는것을 확인하고 적용할 Branch에 Remote Tracking Branch를 Merge 하고나면 성공
 
@@ -175,11 +184,13 @@ remotes/branch는 원격저장소에 대한 읽기 전용 Branch이다.
 
 fetch와 Merge를 한방에 해결
 
-![19.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/19.png)
+![19](https://user-images.githubusercontent.com/81818730/167451550-28eec1f1-1924-4d85-b980-54bf6698596c.PNG)
+
 
 프로젝트 우클릭 - Team - Pull (Pull...은 설정 변경해서 할때 사용)
 
-![20.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/20.png)
+![20](https://user-images.githubusercontent.com/81818730/167451559-deec4ed4-f299-49e7-8d16-f4dcce53a6cc.PNG)
+
 
 ## reset/revert
 
@@ -204,7 +215,8 @@ History → 돌아가고 싶은 버전 우클릭 → Reset → hard/mixed/soft �
 
 History → 취소하고 싶은 버전 우클릭 → Revert
 
-![21.PNG](EGit%20dd588b31ad61414bbfa0b29bada784f2/21.png)
+![21](https://user-images.githubusercontent.com/81818730/167451567-a27fc0b0-bd1b-4371-88e3-8f92f72363b3.PNG)
+
 
 현재 버전과 없는 버전이 충돌 !
 
