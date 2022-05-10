@@ -48,8 +48,9 @@ gitignore를 대신 생성해주는 사이트
 [gitignore.io](https://www.toptal.com/developers/gitignore)
 
 ## Git Commit
-![2](https://user-images.githubusercontent.com/81818730/167451293-25ea8ab8-85c8-4fe0-99d3-775206151187.PNG)
-![3](https://user-images.githubusercontent.com/81818730/167451288-0eacdce8-133b-49eb-9566-772ce8f0eb4a.PNG)
+![2](https://user-images.githubusercontent.com/81818730/167638483-660b4757-b207-4395-9cce-489fece3a059.png)
+![3](https://user-images.githubusercontent.com/81818730/167638490-5227d6ae-5429-49bd-b575-1e91537e588d.png)
+
 
 
 변경 사항 저장후 Commit시 History에 출력됨
@@ -67,12 +68,13 @@ gitignore를 대신 생성해주는 사이트
 
 animal Branch 생성 후 변경 사항 저장 후 Commit
 
-![5](https://user-images.githubusercontent.com/81818730/167451345-49a0efc6-2cbb-4224-8c9a-bb4a1399a99c.PNG)
+![5](https://user-images.githubusercontent.com/81818730/167638513-253bd56c-1e10-474d-9e25-f45b66b7d9df.png)
+
 
 
 변경 사항이 적용 됨 !
 
-![6](https://user-images.githubusercontent.com/81818730/167451357-9de64673-f84b-41c1-8ef3-23dd2fcbc3be.PNG)
+![6](https://user-images.githubusercontent.com/81818730/167638532-38d20eec-f0b9-4b28-8bfa-2531da7f3216.png)
 
 
 > master Branch로 변경시 변경 사항 적용 안되어 있다. (별개로 나누어서 작업 가능)
@@ -96,7 +98,7 @@ Ex) Animal Branch의 변경 사항을 Master에 적용하고 싶다면 Master로
 
 Merge하고자 할 Branch가 현재 Branch를 온전히 포함하였기 때문
 
-![7](https://user-images.githubusercontent.com/81818730/167451373-ce6867d2-e219-405d-95a4-92b927931869.PNG)
+![7](https://user-images.githubusercontent.com/81818730/167638545-0a1df605-fec1-4288-b39c-d56a2c1c6d35.png)
 
 
 ### non-fast-forward-merge
@@ -110,9 +112,10 @@ Merge하고자 할 Branch가 현재 Branch를 온전히 포함하였기 때문
 
 한마디로 변경사항이 일어난 Branch에 변경 사항이 일어난 Branch를 merge 하였을때 !
 
-![8](https://user-images.githubusercontent.com/81818730/167451390-6035af33-1e31-461e-ae3d-67a9e13a50f5.PNG)
-![9](https://user-images.githubusercontent.com/81818730/167451398-96a1b502-5abf-4427-b45d-e12d4c027384.PNG)
-![10](https://user-images.githubusercontent.com/81818730/167451404-d82a4835-14fd-480c-aa51-573ee810b0aa.PNG)
+![8](https://user-images.githubusercontent.com/81818730/167638557-ed0f5c7e-d9ba-4a35-924a-882a73a687cb.png)
+![9](https://user-images.githubusercontent.com/81818730/167638574-ffa49432-5416-454a-94b5-a53df383e5b8.png)
+![10](https://user-images.githubusercontent.com/81818730/167638580-46c1b446-4a65-4402-aae5-17252cc347ab.png)
+
 
 
 복잡하지만 하다보면 이해 되고, 자주 일어나는 상황이다 !
@@ -126,12 +129,14 @@ Merge하고자 할 Branch가 현재 Branch를 온전히 포함하였기 때문
 
 버전이 합쳐지지 않고, 전부 채결한 뒤 Merge 하면 해결된다 
 
-![12](https://user-images.githubusercontent.com/81818730/167451428-aaf11bdb-7bf8-45ef-923e-979e07f5601e.PNG)
+![12](https://user-images.githubusercontent.com/81818730/167638613-aa04a009-807f-4a94-ba60-662acca37898.png)
+
 
 
 채결하고 나면 이러한 Commit 메세지가 작성된다
 
-![13](https://user-images.githubusercontent.com/81818730/167451445-da5fe328-30f1-48fd-a836-2caedb1f22b5.PNG)
+![13](https://user-images.githubusercontent.com/81818730/167638630-810a8983-542e-4fb1-96a6-4b45a278c137.png)
+
 
 
 <aside>
@@ -145,7 +150,8 @@ Merge하고자 할 Branch가 현재 Branch를 온전히 포함하였기 때문
 
 Github에 repo 생성 → 원격 저장소 주소 복사 → Eclipse → Git Repositories → Remotes - Configure push → Change → URL 등록 → Authentication에 User와 Password에 [Token](https://github.com/ymiru0324/Dev-Note/blob/main/Git/Token.md) 값을 입력해준다 ! → Advanced (Push 설정에 대한 설정 / Branch별로 연결을 도와주는 설정) → All Branches → Finish ! → push → Github repo 이동하여 잘 들어갔는지 확인
 
-![16](https://user-images.githubusercontent.com/81818730/167451506-cf5a525d-2d42-4630-b887-831f77f706ac.PNG)
+![16](https://user-images.githubusercontent.com/81818730/167638924-4778ca86-ed22-4ff8-92f4-63a533f6ae22.png)
+
 
 
 Remotes에 연결이 되었다
@@ -158,7 +164,8 @@ Remotes에 연결이 되었다
 
 변경사항 저장후 commit → 프로젝트 우클릭 → Team → Push to origin
 
-![17](https://user-images.githubusercontent.com/81818730/167451518-17282d19-6c71-4956-a879-c9f5a323fec9.PNG)
+![17](https://user-images.githubusercontent.com/81818730/167638661-228cc8aa-0201-4cc4-9fc8-79154945c0ee.png)
+
 
 
 이런 메세지가 뜬다면 성공
@@ -189,7 +196,8 @@ fetch와 Merge를 한방에 해결
 
 프로젝트 우클릭 - Team - Pull (Pull...은 설정 변경해서 할때 사용)
 
-![20](https://user-images.githubusercontent.com/81818730/167451559-deec4ed4-f299-49e7-8d16-f4dcce53a6cc.PNG)
+![20](https://user-images.githubusercontent.com/81818730/167638782-10671885-dbdc-458f-83b2-bae56f4b3ff9.png)
+
 
 
 ## reset/revert
