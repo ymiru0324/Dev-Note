@@ -52,7 +52,6 @@ gitignore를 대신 생성해주는 사이트
 ![3](https://user-images.githubusercontent.com/81818730/167638490-5227d6ae-5429-49bd-b575-1e91537e588d.png)
 
 
-
 변경 사항 저장후 Commit시 History에 출력됨
 
 ## Branch
