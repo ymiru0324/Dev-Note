@@ -7,6 +7,7 @@ WAS(Web Application Server)
 ## 다운로드
 
 홈페이지의 9.0.62 Core 버전 설치
+
 ![1](https://user-images.githubusercontent.com/81818730/167640263-f32b4432-0ef7-42df-b9cd-fa0391aa2c65.png)
 
 
