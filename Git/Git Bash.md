@@ -118,7 +118,8 @@ version 생성
 git log
 ```
 
-![5](https://user-images.githubusercontent.com/81818730/167450780-33d255cb-6d91-4de6-a611-017ba361fd0b.png)
+![5](https://user-images.githubusercontent.com/81818730/167639184-b38a6f33-663e-4e46-83a5-7c19107ec2e0.png)
+
 
 ---
 
