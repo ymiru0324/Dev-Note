@@ -52,7 +52,7 @@ New → Spring Legacy Project → Project name 설정 → Spring MVC Project Tem
 
 ## jstl 다운로드
 
-![2.PNG](Spring%20Framework%20970f71d4f5f74d7397b8c6fc86479ea7/2.png)
+![2](https://user-images.githubusercontent.com/81818730/178239379-8178341c-315f-4005-a776-accc67d020c0.png)
 
 [Apache Tomcat®](https://tomcat.apache.org/download-taglibs.cgi)
 
